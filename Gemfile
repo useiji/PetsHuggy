@@ -17,6 +17,7 @@ gem 'omniauth-facebook'
 gem "paperclip", "~> 5.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
+gem 'aws-sdk', '~> 2.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', groups: %w(test development), require: false
